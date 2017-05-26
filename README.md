@@ -32,8 +32,7 @@ Meta tree structures extracted from real-world datasets
 	
 ### Compile:
 	make clean && make all
-	
-	* For MacOS, substitute <malloc.h> with <malloc/malloc.h> in pruned_landmark_labeling.h.
+* Note: For MacOS, substitute <malloc.h> with <malloc/malloc.h> in pruned_landmark_labeling.h.
 
 ### Examples:
 
@@ -45,6 +44,3 @@ Meta tree structures extracted from real-world datasets
 
 	- Output Meta-Tree of sample dataset to a file
 	./output_metatree Datasets/Email-Enron.txt Email_EdgeList.txt
-  ![Screenshot](https://github.com/zenithanu/MetaTree/blob/master/ScreenShots/Benchmark.png)
-
-* Note: Detail parameters descriptions are on top of each file
